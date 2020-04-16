@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 class SNode:
   def __init__(self, value: int = None, nextNode: SNode = None):
     self.value = value
